@@ -18,7 +18,7 @@ public class Sequence {
   }
   private class SequenceSelector implements Selector {
     private int i = 0;
-	// 内部类直接使用外部类的私用属性items
+	  // 内部类直接使用外部类的私用属性items
     public boolean end() { return i == items.length; }
     public Object current() { return items[i]; }
     public void next() { if(i < items.length) i++; }

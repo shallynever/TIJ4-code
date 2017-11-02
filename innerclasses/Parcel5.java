@@ -10,7 +10,7 @@ public class Parcel5 {
       }
       public String readLabel() { return label; }
     }
-	// 向上转型
+	  // 向上转型
     return new PDestination(s); 
   }
   public static void main(String[] args) {
