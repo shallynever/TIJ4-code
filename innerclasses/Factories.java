@@ -11,6 +11,7 @@ interface ServiceFactory {
 }	
 
 class Implementation1 implements Service {
+  // 可以将构造器设为private，直接通过类名调用static域
   private Implementation1() {}
   public void method1() {print("Implementation1 method1");}
   public void method2() {print("Implementation1 method2");}
