@@ -11,7 +11,9 @@ class Sub extends Super {
   public int getField() { return field; }
   public int getSuperField() { return super.field; }
 }
-
+/*
+直接访问一个域是不存在多态的
+*/
 public class FieldAccess {
   public static void main(String[] args) {
     Super sup = new Sub(); // Upcast

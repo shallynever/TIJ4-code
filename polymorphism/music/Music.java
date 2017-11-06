@@ -9,7 +9,7 @@ public class Music {
   }
   public static void main(String[] args) {
     Wind flute = new Wind();
-    tune(flute); // Upcasting
+    tune(flute); // Upcasting 向上转型
   }
 } /* Output:
 Wind.play() MIDDLE_C

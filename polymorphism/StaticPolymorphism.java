@@ -11,6 +11,7 @@ class StaticSuper {
 }
 
 class StaticSub extends StaticSuper {
+  // 并没有覆盖父类的staticGet方法
   public static String staticGet() {
     return "Derived staticGet()";
   }
